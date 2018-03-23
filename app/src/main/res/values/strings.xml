@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">B12</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_password">Enter password</string>
+    <string name="remember_password">Remember password</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="onCreateCall">On create called</string>
+</resources>

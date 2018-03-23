@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="b12app.vyom.com.b12.Home">
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="156dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/etHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvHome"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etHome"
+        android:layout_below="@+id/etHome"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="45dp"
+        android:onClick="onClickHome"
+        android:text="Button" />
+</RelativeLayout>
